@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <link rel="stylesheet" href="summer.css"><!--cssのリンク-->
+      
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script><!--これがないと動かない-->
+        <script>
+          
+          $(function(){//ここから記述領域
+
+            $(function(){
+              $('#first').hide();
+              $('#h3_first').click(function(){
+                  $(this).text("前編"),$('#first').fadeIn(1000);
+              });
+            });
+          
+            
+            $(function(){
+              $('#second').hide();
+              $('#h3_second').click(function() {
+                  $(this).text("中編"),$('#second').fadeIn(1000);
+              });
+            });
+        
+
+            $(function(){
+              $('#third').hide();
+              $('#h3_third').click(function() {
+                  $(this).text("後編"),$('#third').fadeIn(1000);
+              });
+            });
+        
+            
+          });
+        
+        </script><!--javaゾーン終了-->
+
+    </head>
+    
+    <body>
+    
+      <header>
+          <h1>SUMMER VACATION</h1>
+          <h2>ota kanako ga natsuyasumi nanishitetaka furikaette miyouze!</h2>
+
+              <p>
+                  8/8~9/13までの夏季休業期間、皆さんは何をしてお過ごしだったでしょうか、私の思い出やら苦痛やらなんやらを3編にざっくりと分割してご紹介します。
+              </p>
+          <hr width="80%">   
+      </header>
+
+
+      <main>
+          <h3 id ="h3_first">前編(CLICK)</h3>
+            <div id="first">
+                <p>
+                  藤村ゼミでMaikerFaireTokyo2019に出展するための製作に追われていました。CGの課題も出たりして悲惨だった、絶対ここ休みじゃなかった...<br>
+                  早川さんと時間ないない言いながらmicrobitで動く光る髪飾りを作っていました。なんだかんだ間に合って8/3,4のMaikerFaireは山本さんとデート気分を味わって楽しかった...<br>
+                  後日ご褒美に北岸さんと買い物に行きましたがほぼ寿司を食べる会でした、有意義。<br>
+                </p>
+                <img id=pic src="photo/pic1.jpeg" width="800" height="100%">
+                <hr width="80%">    
+            </div>
+
+
+          <h3 id ="h3_second">中編(CLICK)</h3>
+            <div id="second">
+                <p>
+                    知り合いの誕生日祝いにクッキーを焼いたり、スイーツバイキングモリモリ食べに行きました。甘味は正義。<br>
+                    8/9に初めて3DCGライブに行きました。なんということでしょう、推しキャラ生きてる...!<br>
+                    併設されていたイベントも遊び倒し騒ぎ倒しで楽しかったです。<br>
+                    ライブのクオリティに涙したので不意に当日券を積んでしまいました、有意義。<br>
+                </p>
+                <img id=pic src="photo/pic2.jpeg" width="800" height="100%">
+                <hr width="80%">           
+            </div>     
+
+
+          <h3 id="h3_third">後編(CLICK)</h3>
+            <div id="third">
+                <p>
+                    8/20～31まで手術と入院をしました。安静期間も含めると3週間近く引きこもっていました。看護師さんも先生も素敵な方々でした。しかし痛いわ口はあかないわすることないわで退屈でした。しかたないので空を眺めていました。いいお天気。<br>
+                    病院の思い出お昼のおうどん<br>
+                    退院後は学校近くのタピオカを吸い込んで楽しみました。甘い、チーズフォーム最高、有意義。<br>
+                </p>
+                <img id=pic src="photo/pic3.jpeg" width="800" height="100%">  
+            </div>
+            <hr width="80%">
+      </main>
+
+
+          <footer>
+              SUMMER VACATION<br>
+              ota kanako ga natsuyasumi nanishitetaka furikaette miyouze!<br>
+          </footer>      
+
+
+    </body>
+</html>
